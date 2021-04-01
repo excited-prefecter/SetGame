@@ -12,10 +12,10 @@ struct SetGameModel<CardContent: Equatable>{
     private(set) var score: Int = 0
     private var chosenCardsIndex = Array<Int>()
 
-    init(numbersOfCardContent: Int, cardContentFactory: (Int) -> CardContent) {
+    init(amountOfCardContent: Int, cardContentFactory: (Int) -> CardContent) {
         self.cards = Array<Card>()
         var cardIndex = 0
-        for index in 0..<numbersOfCardContent{
+        for index in 0..<amountOfCardContent{
             let content = cardContentFactory(index)
             for color in 0..<3{
                 for number in 0..<3{
