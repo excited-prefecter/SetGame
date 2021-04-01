@@ -19,7 +19,7 @@ struct SetGameModel<CardContent: Equatable>{
             let content = cardContentFactory(index)
             for color in 0..<3{
                 for number in 0..<3{
-                    self.cards.append(Card(id: cardIndex*3+number, isChosen: false, isMatched: false, isDeleted: false, content: content, contentId: index, colorId: color, numbersOfContent: 1+number))
+                    self.cards.append(Card(id: cardIndex*3+number, isChosen: false, isMatched: false, isDeleted: false, content: content, contentId: index, colorId: color, amountOfContent: 1+number))
                 }
                 cardIndex += 1
             }
