@@ -37,7 +37,7 @@ struct SetGameModel<CardContent: Equatable>{
                     var sumOfNumbersOfContent = 0
                     var sumOfColorId = 0
                     var sumOfContentId = 0
-                    for index in chosenCardsIndex{
+                    for index in chosenCardsIndex.indices{
                         sumOfNumbersOfContent += cards[chosenCardsIndex[index]].numbersOfContent
                         sumOfColorId += cards[chosenCardsIndex[index]].colorId
                         sumOfContentId += cards[chosenCardsIndex[index]].contentId
