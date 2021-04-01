@@ -74,7 +74,7 @@ struct CardView: View{
     
     @ViewBuilder
     private func body(for size: CGSize) -> some View{
-        let mixContent = String.init(repeating: card.content, count: card.numbersOfContent)
+        let mixContent = String.init(repeating: card.content, count: card.amountOfContent)
         if !card.isDeleted && !card.isMatched{
             ZStack{
                 Group{
