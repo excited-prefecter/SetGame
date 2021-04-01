@@ -75,7 +75,7 @@ struct Card:Identifiable {
         var content: CardContent //I don't care the type
         var contentId: Int
         var colorId: Int
-        var numbersOfContent: Int
+        var amountOfContent: Int
 
 //MAR: - Bonus Time
 
