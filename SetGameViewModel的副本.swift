@@ -12,7 +12,7 @@ class SetGameViewModel: ObservableObject {
     
     private static func creatSetGame() -> SetGameModel<String> {
         let shapes: [String] = ["☐","❖","❃"]
-        return SetGameModel<String>(numbersOfCardContent: shapes.count, cardContentFactory:  {index in shapes[index]})
+        return SetGameModel<String>(amountOfContent: shapes.count, cardContentFactory:  {index in shapes[index]})
     }
     
     var showingCards: Array<SetGameModel<String>.Card> {
