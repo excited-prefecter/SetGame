@@ -38,12 +38,12 @@ struct SetGameModel<CardContent: Equatable>{
                     var sumOfColorId = 0
                     var sumOfContentId = 0
                     for index in chosenCardsIndex.indices{
-                        sumOfNumbersOfContent += cards[chosenCardsIndex[index]].numbersOfContent
+                        sumOfAmountOfContent += cards[chosenCardsIndex[index]].amountOfContent
                         sumOfColorId += cards[chosenCardsIndex[index]].colorId
                         sumOfContentId += cards[chosenCardsIndex[index]].contentId
                     }
                     
-                    if (sumOfContentId % 3 == 0) && (sumOfNumbersOfContent % 3 == 0) && (sumOfColorId % 3 == 0) {
+                    if (sumOfContentId % 3 == 0) && (sumOfAmountOfContent % 3 == 0) && (sumOfColorId % 3 == 0) {
                         for index in chosenCardsIndex{
                             cards[index].isMatched = true
                         }
