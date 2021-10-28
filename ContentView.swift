@@ -34,7 +34,7 @@ struct ContentView: View {
             ScrollView(content: {
                 Text("规则").font(.title)
                 Divider()
-                Text("三个卡牌为一组, 元素(形状、颜色、数量)分别全部相同或者全部不同\nThree cards is a group, the shape, color and quantity are same or different with each other\n\n☐ + ☐ + ☐ = ✅\n☐ + ❖ + ❃ = ✅\n☐ + ☐ + ❃ = ❌\n\n1 + 1 + 1 = ✅\n1 + 2 + 3 = ✅\n1 + 1 + 2 = ❌\n\n红 + 红 + 红 = ✅\n红 + 绿 + 蓝 = ✅\n红 + 红 + 蓝 = ❌\n\n☐ + ☐☐ + ☐☐☐ = ✅\n☐ + ❖❖ + ❃❃❃ = ✅\n☐ + ❖❖ + ❖❖❖ = ❌").font(.body).fontWeight(.light).multilineTextAlignment(.center).foregroundColor(.black)
+                Text("三个卡牌为一组, 元素(形状、颜色、数量)分别全部相同或者全部不同\n\n☐ + ☐ + ☐ = ✅\n☐ + ❖ + ❃ = ✅\n☐ + ☐ + ❃ = ❌\n\n1 + 1 + 1 = ✅\n1 + 2 + 3 = ✅\n1 + 1 + 2 = ❌\n\n红 + 红 + 红 = ✅\n红 + 绿 + 蓝 = ✅\n红 + 红 + 蓝 = ❌\n\n☐ + ☐☐ + ☐☐☐ = ✅\n☐ + ❖❖ + ❃❃❃ = ✅\n☐ + ❖❖ + ❖❖❖ = ❌").font(.body).fontWeight(.light).multilineTextAlignment(.center).foregroundColor(.black)
             })
             .frame(height: 500)
             .onTapGesture {
