@@ -2,7 +2,7 @@
 //  Arrray+Only.swift
 //  Memorize
 //
-//  Created by Chaoxin Zhang on 2020/9/26.
+//  Created by *** on 2020/9/26.
 //
 
 import Foundation
