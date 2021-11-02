@@ -2,7 +2,7 @@
 //  Pie.swift
 //  
 //
-//  Created by Chaoxin Zhang on 2020/10/26.
+//  Created by *** on 2020/10/26.
 //
 
 import SwiftUI
