@@ -2,7 +2,7 @@
 //  Cardify.swift
 //
 //
-//  Created by Chaoxin Zhang on 2021/1/6.
+//  Created by *** on 2021/1/6.
 //
 
 import SwiftUI
