@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SetGame
 //
-//  Created by *** on 2021/1/10.
+//  Created by Chaoxin Zhang on 2021/1/10.
 //
 
 import SwiftUI
